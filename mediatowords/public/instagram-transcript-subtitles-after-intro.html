@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/><title>How do I sync Instagram transcript subtitles after adding an intro?</title>
+<link href="https://mediatowords.com/instagram-transcript-subtitles-after-intro" rel="canonical"/>
+<meta content="Shift an Instagram transcript's SRT cues after adding an intro. Compare original and adjusted subtitle files from a three-cue timing test." name="description"/><style>*{box-sizing:border-box}body{max-width:44rem;margin:auto;padding:1rem;color:#183d36;font:1.08rem/1.6 system-ui}h1{font-size:clamp(1.6rem,5vw,2.5rem);line-height:1.15}a{color:#075d4e}table{width:100%;border-collapse:collapse}th,td{padding:.5rem;border-bottom:1px solid #c8d9d0;text-align:left}figure{margin:1.4rem 0}img{width:100%;height:auto}figcaption{font-size:.9rem}</style>
+</head>
+<body>
+<main>
+<p class="tool-link">Start with the <a href="/instagram-transcript">transcribe instagram video</a> tool.</p>
+<h1>How do I sync Instagram transcript subtitles after adding an intro?</h1>
+<p><strong>Measure how much time the intro adds before the original speech, shift the affected subtitle cues by that amount in your editor, and preview the beginning, middle and ending. A single offset works only when the rest of the video keeps the same timing.</strong>
+</p>
+<section>
+<h2>How to diagnose the problem</h2>
+<p>Open the final video export and the subtitle file that matched the original version. Find a recognizable spoken phrase near the beginning and compare the time it is heard with the time its subtitle appears. Repeat the comparison later in the recording. If the difference remains the same, adding a leading intro may explain the mismatch.</p>
+<p>If the difference changes after a cut, speed adjustment or removed section, shifting every cue by one amount will not fix the whole file. Identify the affected edit points first. Keep an unchanged copy of the original subtitles so you can reverse an adjustment and compare versions without guessing which file contains the original timing.</p>
+</section>
+<section id="three-steps">
+<h2>Three steps to fix it</h2>
+<section>
+<h3>Step 1: measure the added time on the final timeline</h3>
+<p>Use your editor’s timeline or playhead to locate the first frame of the original footage after the intro. Measure from the start of the finished video to that point. Do not rely only on the length you intended the intro to have: transitions, gaps and inserted frames can change the actual offset in the export.</p>
+<p>For example, if the original footage begins three seconds later and its playback speed is unchanged, an original cue starting at two seconds should begin at five seconds. A cue ending at four seconds should end at seven seconds. This is arithmetic illustrating the adjustment, not a promise that every edited video can be fixed with three seconds. Use the offset measured in your own timeline.</p>
+</section>
+<section>
+<h3>Step 2: shift the matching cues together</h3>
+<p>In your subtitle editor, select the cues belonging to the unchanged original footage and apply the measured positive offset to both start and end times. Moving both boundaries by the same amount preserves each cue’s duration. Check the sign of the adjustment: subtitles for footage moved later need to move later as well.</p>
+<p>If your intro contains its own spoken words, those words need separate subtitle cues reviewed against the intro audio. Do not shift an intro caption as though it belonged to the original clip. Similarly, if your timeline includes several source clips, check which subtitles correspond to each clip before applying a bulk adjustment. Save the adjusted file under a new version name.</p>
+</section>
+<section>
+<h3>Step 3: preview three points and the final export</h3>
+<p>Play a phrase near the beginning, another near the middle and the final spoken sentence with the adjusted subtitles visible. Confirm that the words appear with their speech and remain readable. A correct beginning alone is not enough: an internal edit may cause later captions to drift even when the first cue is perfectly aligned.</p>
+<p>Export or save the corrected SRT, import it beside the final video file and repeat those spot checks. Make sure your editor is displaying the newly saved subtitle track rather than an older imported copy. Keep the finished video and subtitle version together so that an earlier SRT is not accidentally attached to the new export.</p>
+<section>
+<h4>What if a constant shift still fails?</h4>
+<p>Look for changes to the underlying footage: a removed pause, an inserted segment or a playback-speed change can make the offset vary across the video. Split the timing review at those edit points, or generate a new transcript from the final authorized video export. Review the words again if the edit also changed the spoken content.</p>
+<p>Do not keep adding offsets to an already adjusted file without tracking the changes. Return to your saved original and apply a clear, measured correction. The transcript tool’s text editor preserves cue times when you fix wording, so use your subtitle or video editor for timeline changes and confirm the result against the exported audio.</p>
+</section>
+</section>
+</section>
+
+
+<section>
+<h2>A real screenshot to guide your check</h2>
+<p>The screenshot below shows the tool’s real transcript excerpt. Start labels help locate the corresponding speech, while a downloaded SRT contains both start and end boundaries for each cue. Use the full SRT in an editor when shifting subtitles; a plain copied transcript does not include the cue timing required for this operation.</p>
+<figure><img alt="Screenshot of the live tool showing its real timestamped transcript excerpt and TXT and SRT download controls" height="542" loading="lazy" src="/sample-review.jpg" width="545"/>
+<figcaption>Actual tool screenshot, November 11, 2026. The excerpt illustrates the interface; it is not a diagnosis of your recording.</figcaption>
+</figure>
+</section>
+
+
+<p><a href="/using-srt-subtitles">Import and preview an SRT subtitle file</a>
+</p>
+</main>
+</body></html>

@@ -1,0 +1,57 @@
+{
+  "name": "spool-reel-relay",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "vars": {
+    "VIDEO_RESOLVER_URL": "https://video-resolver.mediatowords.com/resolve",
+    "VIDEO_RESOLVER_PLATFORMS": "tiktok"
+  },
+  "observability": {
+    "enabled": false
+  },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/",
+      "/instagram-transcript-txt-vs-srt",
+      "/instagram-transcript-txt-vs-srt/",
+      "/instagram-transcript-txt-vs-srt.html",
+      "/instagram-transcript-missing-ending",
+      "/instagram-transcript-missing-ending/",
+      "/instagram-transcript-missing-ending.html",
+      "/instagram-transcript-correct-words",
+      "/instagram-transcript-correct-words/",
+      "/instagram-transcript-correct-words.html",
+      "/instagram-transcript-special-characters",
+      "/instagram-transcript-special-characters/",
+      "/instagram-transcript-special-characters.html",
+      "/instagram-transcript-link-format",
+      "/instagram-transcript-link-format/",
+      "/instagram-transcript-link-format.html",
+      "/instagram-transcript-subtitle-line-breaks",
+      "/instagram-transcript-subtitle-line-breaks/",
+      "/instagram-transcript-subtitle-line-breaks.html",
+      "/instagram-transcript-match-video",
+      "/instagram-transcript-match-video/",
+      "/instagram-transcript-match-video.html",
+      "/instagram-transcript-subtitles-after-intro",
+      "/instagram-transcript-subtitles-after-intro/",
+      "/instagram-transcript-subtitles-after-intro.html"
+    ]
+  },
+  "routes": [
+    {
+      "pattern": "mediatowords.com",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "COUNTS",
+      "database_name": "media-to-words-counts",
+      "database_id": "45f811cd-093b-4a7f-b557-e0616a21ccd4"
+    }
+  ]
+}

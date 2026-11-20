@@ -1,0 +1,28 @@
+{
+  "performed": "2026-11-11",
+  "makeup_for": "2026-11-10",
+  "method": "Two silent color clips generated with FFmpeg; output durations read with FFmpeg; SRT cues authored locally. No speech recognition or Instagram download tested.",
+  "files": [
+    {
+      "video": "pair-a.mp4",
+      "measured_duration_seconds": 8,
+      "subtitle": "pair-a.srt",
+      "last_cue_end": 7,
+      "sha256": "2e0975a330ccd782534c719c47f6f0f9d59b6d16778db04aab0493fb4a92a8f5"
+    },
+    {
+      "video": "pair-b.mp4",
+      "measured_duration_seconds": 12,
+      "subtitle": "pair-b.srt",
+      "last_cue_end": 11,
+      "sha256": "7208841b46c97c9858435d373cbb05095cbf3c4d11e8e043b678ce95ea62bab4"
+    }
+  ],
+  "cross_pair_b_srt_with_a_video": {
+    "overflow_seconds": 3
+  },
+  "cross_pair_a_srt_with_b_video": {
+    "fits_duration": true,
+    "does_not_prove_match": true
+  }
+}

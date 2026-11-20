@@ -1,0 +1,81 @@
+.studio-home {
+  background: #f8f7f3;
+  color: #201f1b;
+}
+.studio-home > main > .studio-intro {
+  margin: 48px auto 24px;
+  text-align: center;
+}
+.studio-home .studio-intro h1 {
+  font: 400 clamp(43px, 7vw, 95px)/1.02 Georgia, serif;
+  letter-spacing: -.045em;
+  max-width: none;
+  margin: 0 0 20px;
+}
+.studio-home .studio-intro em {
+  color: #612e3d;
+}
+.studio-home .studio-intro .lede {
+  max-width: 55ch;
+  margin: 0 auto;
+  font-size: 17px;
+}
+.studio-home .studio-platforms {
+  margin: 13px 0 0;
+  font-weight: 750;
+  color: #5e5b53;
+  font-size: 14px;
+}
+.studio-home main > :is(.panel, .result, article, p),
+.studio-home main > #example.sample {
+  max-width: 760px;
+  margin-inline: auto;
+}
+.studio-home main > .panel {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.studio-home main > .panel > .tabs {
+  display: none;
+}
+.studio-home .studio-mode {
+  display: block;
+  margin: 8px auto;
+  padding: 8px 12px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: #612e3d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.studio-home main > #example.sample {
+  background: #eeebe3;
+  padding: clamp(16px, 3vw, 24px);
+  border-radius: 12px;
+  text-align: center;
+}
+.studio-home main > .sample h2 {
+  font-size: 24px;
+}
+.studio-home main > .sample > p {
+  margin-inline: auto;
+}
+.studio-home main > .sample pre {
+  text-align: left;
+}
+.studio-home .sample-actions {
+  justify-content: center;
+}
+.studio-home > footer {
+  max-width: 760px;
+  text-align: center;
+}
+.studio-home > footer nav {
+  justify-content: center;
+}
+@media (max-width: 520px) {
+  .studio-home > main > .studio-intro { margin-top: 29px; }
+  .studio-home .studio-intro .lede { font-size: 15px; }
+}

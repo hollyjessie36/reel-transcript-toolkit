@@ -1,0 +1,196 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TikTok Transcript Generator: Upload Video to Text</title><meta name="description" content="Create a TikTok transcript from a public video link or a saved file. Review the text and download TXT or SRT free."><link rel="canonical" href="https://mediatowords.com/tiktok-transcript"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/style.css"><script defer src="/app.js?v=speech1"></script><script defer src="/tiktok-upload.js?v=3"></script><meta property="og:title" content="TikTok Transcript Generator: Upload Video to Text"><meta property="og:description" content="Create a TikTok transcript from a public video link or a saved file. Review the text and download TXT or SRT free."><meta property="og:url" content="https://mediatowords.com/tiktok-transcript"><meta property="og:type" content="website"><meta property="og:image" content="https://mediatowords.com/tiktok-preview.jpg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Media to Words TikTok Transcript Generator",
+  "url": "https://mediatowords.com/tiktok-transcript",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I paste a TikTok link here?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Paste the URL of a public TikTok video and select Transcribe video. If the video cannot be retrieved, upload a saved copy you are allowed to process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a TikTok transcript without existing subtitles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Recognition works from the recording’s spoken audio rather than requiring a caption track. It does not read text burned into the picture. If the file has no audible speech, the tool cannot create a reliable spoken transcript from the visible captions alone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which video files work for a TikTok transcript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose a video file whose audio your browser can decode, up to 250 MiB. The tool processes one recording at a time. The extension alone does not prove codec compatibility; if decoding fails, try a compatible video export from your editor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which languages can I select?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose Auto-detect, English, Spanish, French, German, Indonesian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi or Italian. Select the language spoken in the recording when possible. The tool transcribes speech; this interface does not provide a translation mode or promise equal accuracy in every language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this TikTok transcript tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The current file transcription, text copying and TXT or SRT exports require no account or payment. Your device performs the recognition and downloads the model on first use. Processing can still fail if a recording is incompatible or the device lacks enough available memory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I edit the transcript and download SRT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Correct the editable text lines after recognition, then download a fresh SRT file. The corrected words are included while the cue times stay the same. Import it alongside the matching video and check reading time, line breaks and synchronization before publishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page access private TikTok posts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It does not connect to TikTok accounts, sign in to private posts or bypass access restrictions. It processes the local recording you select. Use a file you own or are authorized to work with, and check permission separately before sharing the resulting text."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this TikTok transcript generator with a saved file?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Choose a saved video whose audio your browser can read. The tool processes one file at a time, with a limit of 250 MiB. Select the spoken language before starting transcription."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I turn a TikTok video to transcript text?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paste a public TikTok video link, select the spoken language or use Auto-detect, and choose Transcribe video. When your TikTok video transcript appears, review the editable lines, correct any mistakes, then copy the text or download TXT or SRT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is the TikTok script extractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accuracy depends on the recording and the speech. There is no guaranteed accuracy percentage. Listen back and check names, numbers and any lines you plan to reuse before downloading the transcript."
+      }
+    }
+  ]
+}
+</script>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Text card reading TikTok Transcript Generator: Upload Video to Text, Media to Words, and mediatowords.com.">
+<meta name="twitter:image" content="https://mediatowords.com/tiktok-preview.jpg">
+</head><body><header><b><a href="/">Media to Words</a></b><nav aria-label="Tools"><a href="/instagram-transcript">Instagram transcript</a><a href="/tiktok-transcript">TikTok transcript</a></nav></header>
+<main>
+<h1>TikTok Transcript Generator</h1>
+<p class="lede">Paste a public TikTok video link or upload a saved video. Choose its spoken language, then review the transcript and export TXT or SRT.</p>
+<section aria-label="TikTok transcription tool" class="panel"><div class="tabs" hidden=""><button aria-pressed="false" id="linkTab">TikTok link</button><button aria-pressed="true" id="fileTab">Upload file</button></div>
+<form><label for="file" id="label">Saved TikTok video file</label><div class="entry"><input disabled="" hidden="" id="url" type="url" placeholder="Paste a public TikTok video URL"/><input accept="video/*" id="file" required="" type="file"/><button class="primary" disabled="" id="run">Transcribe file</button></div><button hidden="" id="cancelFetch" type="button">Cancel download</button>
+<p id="hint">Choose a saved video file, up to 250 MiB.</p>
+<div class="settings"><label for="lang">Spoken language</label><select id="lang"><option value="">Auto-detect</option><option value="english">English</option><option value="spanish">Spanish</option><option value="french">French</option><option value="german">German</option><option value="indonesian">Indonesian</option><option value="portuguese">Portuguese</option><option value="chinese">Chinese</option><option value="japanese">Japanese</option><option value="korean">Korean</option><option value="arabic">Arabic</option><option value="hindi">Hindi</option><option value="italian">Italian</option></select></div>
+<p class="note">No account needed · Copy text or download TXT / SRT</p>
+<p class="processing-note" id="processingNote">Speech recognition runs in your browser. The first use downloads a speech model. Keep this tab open.</p></form>
+</section><div id="example" hidden aria-hidden="true"><pre id="sampleOutput"></pre><template id="sampleSrt"></template><button id="sampleTextTab" type="button" tabindex="-1"></button><button id="sampleSrtTab" type="button" tabindex="-1"></button><button id="sampleCopy" type="button" tabindex="-1"></button><span id="sampleStatus"></span></div>
+<section class="result" hidden="" id="result">
+<h2>Transcript</h2>
+<p id="status" role="status">
+</p><progress aria-label="Speech model file download" hidden="" id="modelProgress" max="100"></progress><button hidden="" id="retryFile">Upload a saved video</button><div hidden="" id="actions"><button id="copy">Copy text</button> <button id="txt">Download TXT</button> <button id="srt">Download SRT</button></div><div hidden="" id="review">
+<p class="note">Edit any line below. Your corrections are included when you copy or download; subtitle timing stays the same. Save before leaving this page.</p><audio aria-label="Review your recording" controls="" id="sourcePlayback" preload="metadata"></audio>
+<p id="coverage">
+</p>
+<p class="note">Listen to the final spoken sentence and check it below. A gap at the end may be silence; timestamps alone cannot confirm completeness. <a href="/using-srt-subtitles#missing-ending">Check a missing ending</a>
+</p>
+<p class="note">TXT is for reading and notes. SRT contains timed subtitles: import it as a subtitle track in your video editor. <a href="/using-srt-subtitles">How to use your SRT file</a>
+</p></div><div id="lines"></div>
+</section><noscript>Enable JavaScript to transcribe a saved video in your browser.</noscript>
+<article id="tiktok-guide">
+<section>
+<h2>How to get a TikTok video transcript</h2>
+<p>A TikTok transcript can start with a public TikTok link or a saved video file. Choose a recording you own or are allowed to process. If you use a saved file, open it in a media player first and check that the saved version contains the speech you want to transcribe rather than only music, a muted track or a shortened excerpt.</p>
+<p>Select the file above, choose the language spoken in the recording and press Transcribe file. Leave automatic detection selected when you are unsure, then review the result carefully. Keep this tab open while the browser reads the audio and prepares the speech model. The first model download can take longer than later runs, and the device needs enough memory to process the recording.</p>
+<p>When your editable TikTok transcript appears, listen while reading the lines. Correct important words before copying the text or downloading a file. Choose TXT for timestamped notes and SRT for captions you intend to import into an editor. Save the result before leaving or reloading the page; do not treat an unfinished on-screen draft as a saved transcript.</p>
+</section>
+<section>
+<h2>What this TikTok transcript generator does</h2>
+<p>This TikTok transcript generator recognizes speech from the local recording you select. It does not require the video to arrive with an existing subtitle track, and it does not extract caption text from the TikTok interface. Visible text burned into the picture may differ from the spoken audio. Review the audio as the reference rather than assuming that every word you see in the video will appear in the transcript.</p>
+<p>Your TikTok transcript contains editable text with timing information. You can correct spelling in the transcript fields, copy the words without timestamp labels, download a TXT file with start-time labels, or save an SRT containing start and end boundaries. These choices serve different purposes. A text download is useful for reading; a subtitle file is a starting point for caption editing, not a finished video export.</p>
+<p>For a public link, our server retrieves the video audio and sends it to your browser for speech recognition. The tool accepts one recording at a time and produces a transcript in its spoken language. Because the input is a saved recording, the result follows that recording’s actual content and duration, even if the original post was longer or used a different edit.</p>
+</section>
+<section>
+<h2>How to transcribe TikTok video accurately</h2>
+<p>A dependable TikTok transcript depends on the language setting and a careful listening review. The interface offers automatic detection plus English, Spanish, French, German, Indonesian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi and Italian. A language option is not a guarantee of perfect names or punctuation. Recordings with several languages, overlapping speakers or strong background music need a closer listening review.</p>
+<p>Listen to names, quantities and short negative words in their surrounding sentences. A plausible transcription can still change the meaning of a statement. Edit only what you can verify in the recording; if you need clarification, keep an uncertainty note separately instead of inventing a confident quotation. Check each occurrence of a repeated term before applying the same spelling throughout the transcript.</p>
+<p>Finally, compare the last spoken sentence with the last recognized line. The picture may continue after speech ends, so a final cue that stops before the video is over does not necessarily mean words are missing. If the saved recording itself cuts off, obtain a complete source. Retrying speech recognition cannot restore audio that was never included in the file.</p>
+</section>
+<section>
+<h2>Choose TXT for notes or SRT for editing</h2>
+<p>Once a TikTok transcript is on screen, TXT and SRT serve two different jobs. Start-time labels help locate a passage in the source, while the Copy text button gives you the words without those labels. Keep the original recording available when preparing a quotation so you can verify the context before sharing it with somebody else.</p>
+<p>Export your TikTok transcript as SRT when you need timed captions. Import the downloaded file as a subtitle track in an editor that supports it and pair it with the exact video version you transcribed. Preview the beginning, middle and ending. Changes to the on-page wording are included in a new download, but they do not automatically change a cue’s timing or make long lines easier to read.</p>
+<p>If you add an introduction, trim a section or change the video speed after transcription, use the <a href="/using-srt-subtitles">SRT subtitle timing guide</a> to check the captions again against the final export. A matching filename alone does not prove that subtitles fit the new timeline. Save reviewed versions with clear labels so that an older subtitle download is not accidentally attached to a later video edit.</p>
+</section>
+<section>
+<h2>File limits and processing on your device</h2>
+<p>Every TikTok transcript on this page comes from one video file of up to 250 MiB. The browser must be able to decode its audio; a familiar file extension does not guarantee that every codec inside that file will work. There is no fixed number of video minutes promised here. File size, decoding support, recording length and available memory can all affect whether processing completes.</p>
+<p>If the page reports a size or decoding problem, create a smaller, compatible video export using your own editor and try that version. Keep the source unchanged so you can compare the new copy. For a memory error, close unused tabs or try a shorter recording. Repeating the same unsupported file without changing anything is unlikely to resolve its decoding problem.</p>
+<p>When you upload a file, speech recognition reads the selected recording in your browser. The website still loads code and downloads a speech model, so local processing does not mean there are no network requests. No TikTok account sign-in is provided on this page. Use a permitted file rather than attempting to access a restricted post through the tool.</p>
+</section>
+<section id="tiktok-faq">
+<h2>TikTok transcript FAQ</h2>
+<details>
+<summary>Can I paste a TikTok link here?</summary>
+<p>Yes. Paste the URL of a public TikTok video and select Transcribe video. If the video cannot be retrieved, upload a saved copy you are allowed to process.</p>
+</details>
+<details>
+<summary>Can I get a TikTok transcript without existing subtitles?</summary>
+<p>Yes. Recognition works from the recording’s spoken audio rather than requiring a caption track. It does not read text burned into the picture. If the file has no audible speech, the tool cannot create a reliable spoken transcript from the visible captions alone.</p>
+</details>
+<details>
+<summary>Which video files work for a TikTok transcript?</summary>
+<p>Choose a video file whose audio your browser can decode, up to 250 MiB. The tool processes one recording at a time. The extension alone does not prove codec compatibility; if decoding fails, try a compatible video export from your editor.</p>
+</details>
+<details>
+<summary>Which languages can I select?</summary>
+<p>Choose Auto-detect, English, Spanish, French, German, Indonesian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi or Italian. Select the language spoken in the recording when possible. The tool transcribes speech; this interface does not provide a translation mode or promise equal accuracy in every language.</p>
+</details>
+<details>
+<summary>Is this TikTok transcript tool free?</summary>
+<p>The current file transcription, text copying and TXT or SRT exports require no account or payment. Your device performs the recognition and downloads the model on first use. Processing can still fail if a recording is incompatible or the device lacks enough available memory.</p>
+</details>
+<details>
+<summary>Can I edit the transcript and download SRT?</summary>
+<p>Yes. Correct the editable text lines after recognition, then download a fresh SRT file. The corrected words are included while the cue times stay the same. Import it alongside the matching video and check reading time, line breaks and synchronization before publishing.</p>
+</details>
+<details>
+<summary>Does this page access private TikTok posts?</summary>
+<p>No. It does not connect to TikTok accounts, sign in to private posts or bypass access restrictions. It processes the local recording you select. Use a file you own or are authorized to work with, and check permission separately before sharing the resulting text.</p>
+</details>
+
+<details><summary>Can I use this TikTok transcript generator with a saved file?</summary><p>Yes. Choose a saved video whose audio your browser can read. The tool processes one file at a time, with a limit of 250 MiB. Select the spoken language before starting transcription.</p></details>
+<details><summary>How do I turn a TikTok video to transcript text?</summary><p>Paste a public TikTok video link, select the spoken language or use Auto-detect, and choose Transcribe video. When your TikTok video transcript appears, review the editable lines, correct any mistakes, then copy the text or download TXT or SRT.</p></details>
+<details><summary>How accurate is the TikTok script extractor?</summary><p>Accuracy depends on the recording and the speech. There is no guaranteed accuracy percentage. Listen back and check names, numbers and any lines you plan to reuse before downloading the transcript.</p></details>
+</section>
+<p>For public Instagram Reel or video post links, use the <a href="/instagram-transcript">instagram transcript</a> tool. For importing, correcting and timing exported captions, read our <a href="/using-srt-subtitles">SRT subtitles</a> guide.</p>
+</article>
+</main><footer><nav aria-label="Footer"><a href="/instagram-transcript">Instagram transcript</a><a href="/tiktok-transcript">TikTok transcript</a><a href="/using-srt-subtitles">SRT subtitles guide</a><a href="/">Home</a> · <a href="/about">About</a> · <a href="/privacy">Privacy</a> · <a href="/contact">Contact</a></nav></footer></body></html>
